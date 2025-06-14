@@ -8,11 +8,32 @@
 import UIKit
 
 class ViewController: UIViewController {
+    
+    @IBOutlet var dispalyUILabel: UILabel!
+    @IBOutlet var displayImage: UIImageView!
+    
 
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
     }
+    
+    @IBAction func loadGiraffe() {
+        
+    }
+    
+    @IBAction func loadPig() {
+        
+    }
+    
+    @IBAction func loadCrocodile() {
+        
+    }
+    
+    @IBAction func loadShark() {
+        
+    }
+    
 
 
 }
